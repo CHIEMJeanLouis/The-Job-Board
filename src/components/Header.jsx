@@ -1,10 +1,8 @@
+import Title from "./Title";
+
 const Header = (props) => {
   console.log(props);
-  return (
-    <div className="headerContainer">
-      <h1>{props.title}</h1>
-    </div>
-  );
+  return <Title title={props.title} />;
 };
 
 export default Header;
